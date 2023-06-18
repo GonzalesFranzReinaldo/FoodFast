@@ -625,17 +625,17 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView8"
+                        android:id="@+id/iv_store"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/btn_message" />
+                        app:srcCompat="@drawable/ic_storefront" />
 
                     <TextView
                         android:id="@+id/textView14"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Apoyo"
+                        android:text="Store"
                         android:textStyle="bold"
                         android:textAlignment="center"
                         android:textColor="@color/black"
@@ -682,7 +682,8 @@
             app:backgroundTint="#ff5e00"
             app:layout_anchor="@id/app_bar"
             app:maxImageSize="30dp"
-            app:tint="#ffffff"></com.google.android.material.floatingactionbutton.FloatingActionButton>
+            app:tint="#ffffff">
+        </com.google.android.material.floatingactionbutton.FloatingActionButton>
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 

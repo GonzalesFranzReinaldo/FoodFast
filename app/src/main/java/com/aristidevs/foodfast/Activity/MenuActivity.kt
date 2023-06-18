@@ -5,6 +5,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.aristidevs.foodfast.Activity.Domain.CategoryProvider
@@ -37,6 +39,19 @@ class MenuActivity : AppCompatActivity() {
         fb_carritoCompra = findViewById<FloatingActionButton>(R.id.fb_carritoCompra)
         fb_carritoCompra.setOnClickListener{
             val intent = Intent(this@MenuActivity, MonitoreoActivity::class.java)
+            startActivity(intent)
+        }
+
+        val store = findViewById<ImageView>(R.id.iv_store)
+        store.setOnClickListener{
+            val intent = Intent(this@MenuActivity, StoreActivity::class.java)
+            startActivity(intent)
+            Toast.makeText(this, "Bienvenido a nuestra tienda", Toast.LENGTH_SHORT).show()
+        }
+
+        val btn_popular1 = findViewById<Button>(R.id.btn_popular1)
+        btn_popular1.setOnClickListener{
+            val intent = Intent(this@MenuActivity, CompraActivity::class.java)
             startActivity(intent)
         }
 
