@@ -38,7 +38,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="32dp"
                     android:layout_marginTop="32dp"
-                    android:text="Hola Franz"
+                    android:text="Hola Bienvenido a FoodFats"
                     android:textColor="#dd3d00"
                     android:textSize="20sp"
                     android:textStyle="bold"
@@ -142,7 +142,7 @@
                         android:layout_height="match_parent">
 
                         <Button
-                            android:id="@+id/btnSalir"
+                            android:id="@+id/btnOrdenNew"
                             android:layout_width="105dp"
                             android:layout_height="40dp"
                             android:layout_marginEnd="15dp"
@@ -280,7 +280,7 @@
                     >
 
                     <ImageView
-                        android:id="@+id/ivCategory4"
+                        android:id="@+id/btn_bebida"
                         android:layout_width="match_parent"
                         android:layout_height="45dp"
                         android:layout_marginStart="10dp"
@@ -364,7 +364,7 @@
                         android:textSize="15dp"/>
 
                     <Button
-                        android:id="@+id/btn_popular1"
+                        android:id="@+id/btn_pizza_popular"
                         android:layout_width="75dp"
                         android:layout_height="33dp"
                         android:layout_gravity="center|bottom"
@@ -428,7 +428,7 @@
                         android:textSize="15dp"/>
 
                     <Button
-                        android:id="@+id/btn_popular2"
+                        android:id="@+id/btn_burger_popular"
                         android:layout_width="75dp"
                         android:layout_height="33dp"
                         android:layout_gravity="center|bottom"
@@ -458,7 +458,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center|top"
                         android:layout_marginTop="5dp"
-                        android:text="Rosquilla "
+                        android:text="HotDog"
                         android:textSize="13sp"
                         android:textStyle="bold" />
 
@@ -468,7 +468,7 @@
                         android:layout_height="70dp"
                         android:layout_gravity="center"
                         android:layout_marginBottom="20dp"
-                        app:srcCompat="@drawable/cat_5" />
+                        app:srcCompat="@drawable/hotdog" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -485,14 +485,14 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginLeft="8dp"
-                        android:text="15.50"
+                        android:text="25.50"
                         android:layout_marginTop="34dp"
                         android:textStyle="bold"
                         android:textColor="@color/black"
                         android:textSize="15dp"/>
 
                     <Button
-                        android:id="@+id/btn_popular3"
+                        android:id="@+id/btn_hotdog_popular"
                         android:layout_width="75dp"
                         android:layout_height="33dp"
                         android:layout_gravity="center|bottom"
@@ -574,7 +574,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView6"
+                        android:id="@+id/btn_perfil"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"

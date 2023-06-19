@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Activity.CompraPizzaActivity">
+
+
+
+
+
+
+<!--     PARA AGREGAR LA PIZZA AL CARRITO-->
+    <LinearLayout
+        android:id="@+id/carrito_pizza"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="Pizza de Peperoni con Jalapeño"
+                android:textAlignment="center"
+                android:textColor="#373b54"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bs.60"
+                android:textAlignment="center"
+                android:textColor="#ff5e00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="457dp"
+                app:srcCompat="@drawable/pizza" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Añadir al carrito #: "
+                    android:textStyle="bold"
+                    android:textSize="20dp"/>
+
+                <EditText
+                    android:id="@+id/et_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="num carrito"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:textColor="@color/color_morado"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Producto a añadir: "
+                    android:textStyle="bold"
+                    android:textSize="20dp"/>
+
+                <EditText
+                    android:id="@+id/et_producto_agregar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="nombre producto"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@color/color_morado"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cantidad a añadir: "
+                    android:textStyle="bold"
+                    android:textSize="20dp"/>
+
+                <EditText
+                    android:id="@+id/et_cantidad_agregar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="cantidad total"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/color_morado"/>
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btn_agregarCarrito"
+                android:layout_width="290dp"
+                android:layout_height="50dp"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                android:textSize="23sp"
+                android:elevation="3dp"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:backgroundTint="#FF8C00"
+                android:text="Añadir a Carrito"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_confirmar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/color_morado"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--    xmlns:tools="http://schemas.android.com/tools"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent"-->
+    <!--    tools:context=".Activity.CompraActivity">-->
+
+    <!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+
+</LinearLayout>

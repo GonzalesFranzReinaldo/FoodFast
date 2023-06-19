@@ -23,7 +23,6 @@ class StoreActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityStoreBinding.inflate(layoutInflater)
-
         val db : FirebaseFirestore = FirebaseFirestore.getInstance()
         setContentView(binding.root)
 

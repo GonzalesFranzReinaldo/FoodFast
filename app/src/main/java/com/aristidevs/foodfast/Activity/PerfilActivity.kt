@@ -4,9 +4,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.aristidevs.foodfast.R
 
-class MonitoreoActivity : AppCompatActivity() {
+class PerfilActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_monitoreo)
+        setContentView(R.layout.activity_perfil)
     }
 }
