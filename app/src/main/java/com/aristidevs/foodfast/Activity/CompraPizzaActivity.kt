@@ -14,6 +14,7 @@ class CompraPizzaActivity : AppCompatActivity() {
     lateinit var binding: ActivityCompraPizzaBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        //definiendo el binding
         binding = ActivityCompraPizzaBinding.inflate(layoutInflater)
         val db : FirebaseFirestore = FirebaseFirestore.getInstance()
         setContentView(binding.root)
